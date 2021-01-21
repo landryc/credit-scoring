@@ -1,0 +1,1 @@
+web: gunicorn credit_scoring:app
