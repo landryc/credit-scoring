@@ -8,7 +8,7 @@ import pickle
 model_file = 'credit_object.pkl'
 token = 'KOLA2019#'
 
-criteria = ['Gender', 'Age', 'bank_account']
+criteria = ['Gender', 'Age', 'Bank_account']
 
 app = Flask(__name__)
 
