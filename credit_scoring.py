@@ -29,7 +29,7 @@ def predict_logic():
 	elt = request.get_json(force=True)
 	model  = deserialize_model(model_file)
 	score = compute_score(elt, *model)
-	return jsonify({'Score': score}) if score <= 1.0 else jsonify({'Score' : 1.0})
+	return jsonify({'Score': 800 * score}) if score <= 1.0 else jsonify({'Score' : 800 * 1.0})
 
 
 def deserialize_model(model_file):
