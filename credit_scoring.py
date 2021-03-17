@@ -48,7 +48,6 @@ def normalize_score(score, Min, Max):
 	# First normalization : Put the score between [0, 1]
 	score = (score - Min)/(Max - Min)
 	score = score if score <= 1.0 else 1.0
-	print(score)
 	
 	# Second normalization : Put the score between [MIN, MAX]
 	MIN = 300
