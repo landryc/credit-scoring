@@ -70,7 +70,7 @@ def normalize_score(score, Min, Max):
 	
 	# Second normalization : Put the score between [MIN, MAX]
 	MIN = 300
-	MAX = 850
+	MAX = 860
 	return score * MAX + (1 - score) * MIN 	
 
 
