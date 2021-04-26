@@ -1,10 +1,6 @@
 from flask import Flask, request, jsonify
 import pickle
 
-# import firebase_admin
-# from firebase_admin import credentials
-# from firebase_admin import firestore
-
 model_file = 'credit_object.pkl'
 token = 'KOLA2019#'
 
