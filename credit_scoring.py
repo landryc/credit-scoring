@@ -103,7 +103,7 @@ def compute_score(elt, Options, weights, Min, Max, norm_params):
 
 	age = age/max_age
 	gender = gender/max_gender
-	bank_account = bank_account/max_gender
+	bank_account = bank_account/max_bank_account
 	repayment = 1.0 if repayment > 1.0 else repayment
 	vol_trans = 1.0 if vol_trans > 1.0 else vol_trans
 	airtime = 1.0 if airtime > 1.0 else airtime
